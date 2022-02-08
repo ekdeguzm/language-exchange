@@ -133,4 +133,9 @@ button {
     text-align: center;
     background-color: aliceblue;
     padding: 20px;
+    flex-direction: column;
+}
+
+.footer-text {
+    margin-top: 14px;
 }
