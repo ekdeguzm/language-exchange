@@ -13,7 +13,7 @@ html {
 }
 
 .logo {
-    margin: 0px
+    margin-left: 70px;
 }
 
 .top-header {
@@ -21,14 +21,14 @@ html {
     align-items: top;
     justify-content: space-between;
     padding: 20px;
-    margin: 20px;
+    margin: 0px;
 }
 
 ul {
     list-style-type: none;
     display: flex;
     margin: 0;
-    padding: 5px;
+    padding: 25px;
     gap: 20px;
     font-size: 15px;
 }
@@ -51,7 +51,7 @@ img {
 }
 
 .box {
-    margin-top: 60px;
+    margin-top: 50px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -72,6 +72,7 @@ img {
     align-items: center;
     justify-content: center;
     gap: 20px;
+    margin-top: 40px;
     
 }
 
@@ -105,9 +106,10 @@ img {
     margin: 90px;
     padding: 30px;
     justify-content: center;
-    gap: 20px;
-    border-radius: 10%;
+    gap: 40px;
+    border-radius: 0%;
     color: white;
+    
 
 }
 
@@ -119,6 +121,12 @@ button {
     background-color: #3882F6;
     padding: 5px;
     font-size: 15px;
+}
+
+.small-button {
+    margin-top: 20px;
+    width: 80px;
+    height: 55px;
 }
 
 .footer {
