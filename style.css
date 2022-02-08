@@ -139,3 +139,7 @@ button {
 .footer-text {
     margin-top: 14px;
 }
+
+@media (max-width: 722px) { 
+   }
+}
