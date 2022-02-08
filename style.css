@@ -29,7 +29,7 @@ ul {
     display: flex;
     margin: 0;
     padding: 5px;
-    gap: 10px;
+    gap: 20px;
     font-size: 15px;
 }
 
@@ -38,15 +38,16 @@ a {
 }
 
 img {
-    width: 300px;
+    width: 350px;
     height: auto;
-    margin-top: 30px;
+    margin-top: 20px;
     border-radius: 5%;
 }
 
 .lower-header-text {
-    width: 300px;
+    width: 320px;
     height: 300px;
+    text-align: center;
 }
 
 .box {
@@ -62,7 +63,7 @@ img {
 .information {
     height: 400px;
     text-align: center;
-    margin-top: 70px;
+    margin-top: 100px;
     
 }
 
@@ -75,8 +76,8 @@ img {
 }
 
 .info-size {
-    width: 200px;
-    height: auto;
+    width: auto;
+    height: 150px;
     border-radius: 5%;
 }
 
@@ -102,14 +103,26 @@ img {
     background: lightblue;
     display: flex;
     margin: 90px;
-    padding: 20px;
+    padding: 30px;
     justify-content: center;
     gap: 20px;
     border-radius: 10%;
+    color: white;
 
+}
+
+button {
+    color: #fff;
+    font-family: 'Roboto', arial;
+    border-color: #fff;
+    border-radius: 8px;
+    background-color: #3882F6;
+    padding: 5px;
+    font-size: 15px;
 }
 
 .footer {
     text-align: center;
     background-color: aliceblue;
+    padding: 20px;
 }
